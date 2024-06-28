@@ -1,7 +1,9 @@
+import "./HomeLayoutStyles.css";
+
 export default function HomeLayout(): JSX.Element {
     return (
-        <div>
-            The Bosco Recipe Repo
+        <div className="Container">
+            <h1 className="Title">The Bosco Recipe Repo</h1>
         </div>
     );
 }
